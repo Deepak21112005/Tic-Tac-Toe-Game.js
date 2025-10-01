@@ -34,9 +34,43 @@ h1{
     background-color: rgb(240, 240, 240);
     box-shadow: 6px 6px 10px rgb(62, 62, 62);
 }
-.innerBox:hover{
+.innerBox:hover {
     transition: .3s;
-    height: 205px;
-    width: 205px;
     box-shadow: 8px 8px 12px rgb(55, 55, 55);
+    transform: scale(1.02);
+}
+
+#circle {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 16px solid #000;
+    transition: all 0.3s ease;
+}
+
+#cross {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform: rotate(45deg);
+}
+
+#forward, #backward {
+    position: absolute;
+    background: #000;
+    border-radius: 4px;
+}
+
+#forward {
+    top: 25px;
+    left: 90px;
+    width: 18px;
+    height: 150px;
+}
+
+#backward {
+    top: 90px;
+    left: 25px;
+    height: 18px;
+    width: 150px;
 }
