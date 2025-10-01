@@ -40,34 +40,3 @@ h1{
     width: 205px;
     box-shadow: 8px 8px 12px rgb(55, 55, 55);
 }
-#circle{
-    height: 125px;
-    width: 125px;
-    border-radius: 50%;
-    border:16px solid black;
-}
-#cross{
-    height: 200px;
-    width: 200px;
-    position: relative;
-    transform: rotate(45deg);
-}
-#forward{
-    position: relative;
-    top: 10%;
-    left: 45%;
-    width: 18px;
-    height: 150px;
-    background: black;
-    border-radius: 4px;
-}
-#backward{
-    content: "";
-    top:-32%;
-    left: 12%;
-    position: relative;
-    height: 18px;
-    width: 150px;
-    background: black;
-    border-radius: 4px;
-}
